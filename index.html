@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div>
+            <h1 id="total">Totally Trivial Trivia!</h1>
+        </div>
+        <button id="start"><h2>Start Game</h2></button>
+        <div id="image-holder"></div>
+
+        <div>
+            <P id="time">Time Remaining:</P>
+        </div>
+
+        <div>
+            <p>CorectAns: <span id="correct"></span></p>
+        </div>
+        <div>
+            <p >IncorrectAns: <span id="incorrect"></span></p>
+        </div>
+        <div> 
+            <p>UnAnswered: <span id="unanswer"></span></p>
+        </div>
+<button id="start-over" class="btn btn-success"> start over?</button>
+        <div class="questions">
+        <div class="form-check">
+            <p> 1-who is the president?</p>
+            <input class="form-check-input" type="radio" name="q1" id="1a" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                clinton 
+            </label>
+        </div>
+        <div class="form-check">
+
+            <input class="form-check-input" type="radio" name="q1" id="1b" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+                obama
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="q1" id="1c" value="option3">
+            <label class="form-check-label" for="exampleRadios2">
+                trump
+            </label>
+        </div>
+        <div class="form-check">
+            <p> 2-how many seasons do we have?</p>
+            <input class="form-check-input" type="radio" name="q2" id="2a" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                2
+            </label>
+        </div>
+        <div class="form-check">
+
+            <input class="form-check-input" type="radio" name="q2" id="2b" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+                3
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="q2" id="2c" value="option3">
+            <label class="form-check-label" for="exampleRadios2">
+                4
+            </label>
+        </div>
+        <div class="form-check">
+            <p> 3-who won the world soccer player in 2018</p>
+            <input class="form-check-input" type="radio" name="q3" id="3a" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                espana
+            </label>
+        </div>
+        <div class="form-check">
+
+            <input class="form-check-input" type="radio" name="q3" id="3b" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+                france
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="q3" id="3c" value="option3">
+            <label class="form-check-label" for="exampleRadios2">
+                nigeria
+            </label>
+        </div>
+        <button type="button" class="btn btn-light">check</button>
+    </div>
+    </div>
+
+   <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>

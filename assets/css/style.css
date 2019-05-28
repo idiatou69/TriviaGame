@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+    background-color: aqua;
+}
+#total{
+    color: blue;
+}
+.btn{
+    color: blue;
+    font-size: 20px;
+}
