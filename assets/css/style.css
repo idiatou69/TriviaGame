@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-color: aqua;
+;
 }
 #total{
     color: blue;
@@ -10,14 +10,16 @@ body{
     font-size: 20px;
 }
 body{
-    background-image: url('../image/summer-winter.webp');
+    background-image: url("../image/flower.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height:100vh;
     
 }
 .container{
-    background-color: pink;
+    background-color:white;
     height: 100vh;
+    width: 50%;
+    
     
 }
