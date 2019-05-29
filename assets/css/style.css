@@ -9,3 +9,15 @@ body{
     color: blue;
     font-size: 20px;
 }
+body{
+    background-image: url('../image/summer-winter.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:100vh;
+    
+}
+.container{
+    background-color: pink;
+    height: 100vh;
+    
+}
